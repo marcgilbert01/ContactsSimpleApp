@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:paddingTop="20dp"
+                android:paddingBottom="30dp">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageViewPhotoInList"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Marc"
+        android:id="@+id/textViewFirstName"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageViewPhotoInList"
+        android:layout_toEndOf="@+id/imageViewPhotoInList"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Gilbert"
+        android:id="@+id/textViewSurname"
+        android:layout_below="@+id/textViewFirstName"
+        android:layout_toRightOf="@+id/imageViewPhotoInList"
+        android:layout_toEndOf="@+id/imageViewPhotoInList"
+        android:layout_margin="5dp"/>
+</RelativeLayout>
